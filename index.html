@@ -29,7 +29,7 @@
         The more conditionals, the smarter your auto car can become.
         How many conditionals can you add?
       </div>
-      <div id="situation" class="box">your auto car is driving down the road, when suddenly it sees a </div>
+      <div id="situation" class="box">your auto car is driving down the road, when suddenly it sees a </cat>
       <div id="text-box" class="box"><input id="situation-input" type="text" /></div>
       <div id="btn-react" class="btn btn-primary">React</div>
       <div id="result" class="box"></div>
@@ -54,12 +54,12 @@
          return $result.html("auto car comes to a safe and complete stop")
        }
 
-       if (input == "person") {
-         return $result.html("auto car goes around him/her")
+       if (input == "yield sign") {
+         return $result.html("lets them go first")
        }
 
-       if (input == "flood") {
-         return $result.html("auto car turns around")
+       if (input == "cat") {
+         return $result.html("auto car goes around")
        }
 
        $result.html("auto car does not know how to handle this situation")
